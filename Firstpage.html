@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Menu Page</title>
+    <link rel = "stylesheet" href = "CatchRat.css">
+    <script> 
+        $(document).ready(function(){
+            var div = $("#img1");
+            div.animate({height: '300px', opacity: '0.4'}, "slow");
+            div.animate({width: '300px', opacity: '0.8'}, "slow");
+            div.animate({height: '400px', opacity: '0.4'}, "slow");
+            div.animate({width: '400px', opacity: '0.8'}, "slow");
+          });
+        
+    </script> 
+</head>
+<body>
+    <div class="container">
+        <img src="https://sherkhan0786.github.io/jsWhackMouse/mole.jpg" alt="image1" id= "img1"><br>
+        <input type="submit" value="Lets play the Game.." id="startbtn" onclick="playGame()">
+    </div>
+    <script src="Rat.js"></script> 
+</body>
+</html>

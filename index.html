@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch Rat</title>
+    <link rel = "stylesheet" href = "CatchRat.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p>Score:<span id="score"></span></p>
+        <p>Time:<span id="time">01:00</span></p>
+        <p id="highScore">High Score:</p>
+        <progress value="0" max="10" id="progressBar"></progress>
+                
+    </div>
+
+    <div id="catchgame">
+        <div id="d1">
+            
+        </div>
+        <div id="d2">
+            
+        </div>
+        <div id="d3">
+            
+        </div>
+        <div id="d4">
+            
+        </div>
+        <div id="d5">
+            
+        </div>
+        <div id="d6">
+            
+        </div>
+        <div id="d7">
+            
+        </div>
+        <div id="d8">
+            
+        </div>
+            
+        <div id="d9">
+            
+        </div>
+    </div>
+
+    <div id="finalscore">
+        <input type="button" value="Menu" id="menu" onclick="menu()">
+        <p id="showScore" class="pop-up">Game over, Better luck for next time.</p>
+        <p id="resultHScore" class=""></p>
+    </div>
+
+    <script src="Rat.js"></script> 
+
+</body>
+</html>
